@@ -1,7 +1,7 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: "Test 블로그"
+title: "Test 블로그"
+description: "Test 블로그 입니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /class101_test_blog
@@ -13,27 +13,19 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
+  Test:
+    name: Test
+    display_name: Test    
     avatar: 'assets/images/avatar.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
+    web: https://jihwan629.github.io/class101_test_blog/
     twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    description: "Test"
 
 # Plugins
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
@@ -48,7 +40,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 12
 paginate_path: /page:num/
     
 # Other
